@@ -15,8 +15,8 @@ function toggoleButton(){
 function tellMeJoke(joke){
     VoiceRSS.speech({
         key: '34622ebd8095478fbbbab08d104fffcc',
-        src: 'أنا أحب القهوة',
-        hl:'ar-sa',
+        src: joke,
+        hl:'en-us',
         r: '0',
         c: 'mp3',
         f: '44khz_16bit_stereo',
